@@ -1,0 +1,42 @@
+.sidebarContainer {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 85px);
+  padding: 10px 0;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.menuContainer {
+  width: 100% !important;
+  padding-left: 40px !important;
+}
+.menuBar {
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menuitem {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-left: 14px;
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.selectedMenuItem {
+  .k-link {
+    background-color: rgb(172, 188, 204);
+  }
+}
